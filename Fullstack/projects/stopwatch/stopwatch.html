@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+
+    <style>
+        .container{
+            background-color:darkslategray;
+            height:200px;
+            width:100px;
+            padding-inline:50px;
+            margin:40px;
+            border-radius:50%;
+        }
+        .time{
+            padding-top: 60px;
+        }
+        body{
+            background-color:gray;
+        }
+        
+        
+    </style>
+    <center>
+    <h1>stopwatch</h1>
+        <div class="container">
+        <h1 class="time">00:00:00</h1>
+    
+          <input type="button" value="start" onclick="startTimer()" alt="start">
+          <input type="button" value="stop"  onclick="stopTimer()" alt="stop">
+           <input type="button" value="reset" onclick="resetTimer()" alt="reset">
+           </div>
+        
+            
+   <script src="stopwatch.js"></script>
+    </center>
+</body>
+
+</html>
